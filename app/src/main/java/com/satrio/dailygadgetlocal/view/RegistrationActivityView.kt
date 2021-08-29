@@ -1,5 +1,6 @@
 package com.satrio.dailygadgetlocal.view
 
 interface RegistrationActivityView {
-    fun showNewUserData(data: String)
+    fun regSuccess()
+    fun regFailed(msg: String)
 }

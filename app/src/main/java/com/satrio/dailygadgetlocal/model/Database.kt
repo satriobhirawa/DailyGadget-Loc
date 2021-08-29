@@ -5,5 +5,6 @@ import com.satrio.dailygadgetlocal.presenter.MainPresenterImp
 
 @Database(entities = [User::class], version = 1)
 abstract class Database : RoomDatabase(){
-    abstract fun userDao(): MainPresenterImp
+    abstract fun usersDao(): UsersDao
+
 }
